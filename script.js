@@ -32,7 +32,7 @@ database.ref("messages").on('child_added', function(message) {
   let messages = document.querySelector("#messages");
   let name = message.val().name;
   let value = message.val().message;
-let div = document.createElement("div");
+  let div = document.createElement("div");
   let span = document.createElement("span");
   span.innerHTML = "@" + name;
   let p = document.createElement("p");
