@@ -1,0 +1,53 @@
+body {
+  font-family: 'VT323', monospace;
+  max-width: 50em;
+  margin: auto;
+  background: url(https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80);
+}
+
+h1, h2 {
+  color: rgb(164, 167, 152);
+}
+
+p, a {
+  color: rgb(59, 223, 59);
+}
+
+.messages {
+  padding: 8px;
+  background: #011101;
+  height: 300px;
+  overflow-y: scroll;
+  margin: 8px 0px;
+}
+
+.messages > div {
+  padding: 8px 0px; 
+}
+
+.messages > div > span {
+  color: rgb(59, 223, 59);
+}
+
+.messages > div > p {
+  color: #f1f7ef;
+  margin: 0px;
+  padding: 4px 0px;
+}
+
+.username {
+  font-size: 18px;
+  padding: 4px;
+  height: 18px;
+  width: 300px;
+  border: none;
+  background-color: rgb(231, 231, 243);
+}
+.message {
+  font-size: 18px;
+  padding: 4px;
+  height: 18px;
+  width: 300px;
+  border: none;
+  background-color: rgb(231, 231, 243);
+}
