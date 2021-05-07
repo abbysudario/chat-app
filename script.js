@@ -13,8 +13,8 @@
 
 let database = firebase.database();
 
-let name = document.querySelector("username");
-let input = document.querySelector("message");
+let name = document.querySelector("#username");
+let input = document.querySelector("#message");
 
 input.addEventListener('keypress', function(event) {
    if(event.key == "Enter") {
@@ -29,7 +29,7 @@ input.addEventListener('keypress', function(event) {
 
 database.ref("messages").on('child_added', function(message) {
 
-  let messages = document.querySelector("messages");
+  let messages = document.querySelector("#messages");
   let name = message.val().name;
   let value = message.val().message;
 let div = document.createElement("div");
